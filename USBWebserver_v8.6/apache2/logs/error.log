@@ -1,7 +1,8 @@
-[Wed Sep 19 08:40:27.366147 2018] [mpm_winnt:notice] [pid 11072:tid 824] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed Sep 19 08:40:27.366147 2018] [mpm_winnt:notice] [pid 11072:tid 824] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed Sep 19 08:40:27.366147 2018] [core:notice] [pid 11072:tid 824] AH00094: Command line: 'C:\\Users\\ite15-16\\Downloads\\USBWebserver_v8.6\\USBWebserver_v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/ite15-16/Downloads/USBWebserver_v8.6/USBWebserver_v8.6/apache2'
-[Wed Sep 19 08:40:27.459890 2018] [mpm_winnt:notice] [pid 11072:tid 824] AH00418: Parent: Created child process 2632
-[Wed Sep 19 08:40:28.694176 2018] [mpm_winnt:notice] [pid 2632:tid 856] AH00354: Child: Starting 64 worker threads.
-[Wed Sep 19 08:40:37.677574 2018] [:error] [pid 2632:tid 1396] [client ::1:2563] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in C:\\Users\\ite15-16\\Downloads\\USBWebserver_v8.6\\USBWebserver_v8.6\\root\\index.php on line 47
-[Wed Sep 19 08:47:49.479879 2018] [:error] [pid 2632:tid 1384] [client ::1:2974] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_, referer: http://localhost/wordpress/wp-admin/setup-config.php?step=1
+[Sat Sep 29 08:30:23.723669 2018] [mpm_winnt:notice] [pid 11380:tid 796] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Sat Sep 29 08:30:23.723669 2018] [mpm_winnt:notice] [pid 11380:tid 796] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Sat Sep 29 08:30:23.723669 2018] [core:notice] [pid 11380:tid 796] AH00094: Command line: 'C:\\Users\\ite15-16\\Downloads\\ITE15\\Projectables\\USBWebserver_v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/ite15-16/Downloads/ITE15/Projectables/USBWebserver_v8.6/apache2'
+[Sat Sep 29 08:30:23.754939 2018] [mpm_winnt:notice] [pid 11380:tid 796] AH00418: Parent: Created child process 11688
+[Sat Sep 29 08:30:24.473687 2018] [mpm_winnt:notice] [pid 11688:tid 644] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 29 08:30:38.208420 2018] [mpm_winnt:warn] [pid 11688:tid 1372] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Sep 29 08:30:38.208420 2018] [mpm_winnt:warn] [pid 11688:tid 1372] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Sep 29 08:42:02.948612 2018] [:error] [pid 11688:tid 1348] [client ::1:12758] WordPress database error Unknown column 'pr' in 'field list' for query SELECT pr, referer: http://localhost/wordpress/wp-admin/setup-config.php?step=1
